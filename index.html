@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Studietid App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registrer Studietid</h1>
+        <form id="study-form">
+            <label for="bruker_id">Bruker ID:</label>
+            <input type="text" id="bruker_id" required>
+
+            <label for="fag_id">Fag ID:</label>
+            <input type="text" id="fag_id" required>
+
+            <label for="rom_id">Rom ID:</label>
+            <input type="text" id="rom_id" required>
+
+            <button type="submit">Registrer</button>
+        </form>
+
+        <h2>Dine Registreringer</h2>
+        <ul id="registration-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
